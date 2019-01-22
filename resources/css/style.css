@@ -9,12 +9,17 @@ body {
   font-family: helvetica; sans-serif;
 }
 
+h1, h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
 }
 
-/* header */
+/* Company Header */
 
 .company-title {
   background-color: black;
@@ -31,3 +36,52 @@ body {
   height: 1.5rem;
   padding-right: 1rem;
 }
+
+/* Hero Content */
+
+.hero-content {
+  background-image: url('../images/moto.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem
+}
+
+.new-arrival {
+  background: black;
+  color: white;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+.new-arrival h1{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.25rem 0 0 0;
+}
+
+/*  Shop Navigation */
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+/* Shop */
