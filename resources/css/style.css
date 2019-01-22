@@ -76,6 +76,29 @@ h1, h4 {
 
 }
 
+@media only screen and (max-width: 470px) {
+  /* Mobile Design */
+
+  .hero-content {
+    height: 15rem;
+  }
+
+  .new-arrival {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .new-arrival h1 {
+    font-size: 1rem;
+  }
+
+  .new-arrival h4 {
+    font-size: 0.77rem;
+  }
+
+}
+
 /*  Shop Navigation */
 
 nav {
@@ -177,6 +200,33 @@ nav ul{
 
 }
 
+@media only screen and (max-width: 470px) {
+  /* Mobile Design */
+  .products,
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .information {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+}
+
 /* Footer */
 footer {
   background-color: black;
@@ -185,4 +235,13 @@ footer {
   margin-top: 4rem;
   padding-top: 4rem;
   text-align: left;
+}
+
+@media only screen and (max-width: 470px) {
+  /* Mobile Design */
+
+  footer {
+    text-align: center;
+  }
+
 }
