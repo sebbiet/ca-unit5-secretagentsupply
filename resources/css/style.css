@@ -63,6 +63,19 @@ h1, h4 {
   margin: 0.25rem 0 0 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  /* Tablet Design */
+
+  .new-arrival h1 {
+    font-size: 1.5rem;
+  }
+
+  .new-arrival h4 {
+    font-size: 1rem;
+  }
+
+}
+
 /*  Shop Navigation */
 
 nav {
@@ -82,6 +95,24 @@ nav ul{
   justify-content: space-between;
   padding: 0.75rem 0;
   list-style: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Tablet Design */
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
 }
 
 /* Shop & Contact Information */
@@ -127,6 +158,23 @@ nav ul{
   background-color: black;
   color: white;
   padding: 1rem 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  /* Tablet Design */
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .information {
+    width: 35%;
+  }
+
 }
 
 /* Footer */
