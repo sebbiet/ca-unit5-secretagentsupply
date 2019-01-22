@@ -128,3 +128,13 @@ nav ul{
   color: white;
   padding: 1rem 2rem;
 }
+
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
+  text-align: left;
+}
