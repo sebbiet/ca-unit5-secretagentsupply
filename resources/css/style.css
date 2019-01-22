@@ -84,4 +84,47 @@ nav ul{
   list-style: none;
 }
 
-/* Shop */
+/* Shop & Contact Information */
+
+.products,
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: .5rem;
+}
+
+.information {
+  width: 35%;
+}
+
+.information .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+}
